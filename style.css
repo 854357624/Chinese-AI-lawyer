@@ -1,0 +1,81 @@
+/* 使用Google字体 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* 基础样式 */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+header {
+    background-color: #2a3f54; /* 深色背景 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* 介绍文本样式 */
+.intro-text p {
+    text-align: center; /* 居中文本 */
+    font-size: 1.2rem; /* 调整字体大小 */
+    margin: 0; /* 移除默认的外边距 */
+    padding: 20px 0; /* 添加一些内边距 */
+}
+
+/* 介绍图片样式 */
+.intro-image {
+    text-align: center; /* 居中图片 */
+    padding: 20px 0; /* 添加一些内边距 */
+}
+
+.intro-image img {
+    max-width: 100%; /* 确保图片不会超过其容器宽度 */
+    height: auto; /* 保持图片的原始宽高比 */
+}
+/* 服务项样式 */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-icon {
+    font-size: 3rem; /* 调整图标大小 */
+    color: #007bff; /* 图标颜色 */
+}
+
+/* 联系信息样式 */
+.contact {
+    background-color: #e2e3e5;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact a {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+    }
+}
